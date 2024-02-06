@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100;
+  height: 100px;
+  background-color: rgb(229, 21, 21);
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-logo {
+  height: 100%;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+body {
+  height: 500px;
+}
+.card {
+  background-color: blue;
+  height: 500px;
+  width: 300px;
+}
